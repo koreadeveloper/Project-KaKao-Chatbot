@@ -4,47 +4,47 @@
  
     switch($content)
     {
-        case "메뉴1":
+        case "오늘급식":
             echo '
                 {
                     "message":
                     {
-                        "text": "메뉴1을 선택하셨습니다."
+                        "text": "[오늘 급식]"
                     },
                     "keyboard":
                     {
                         "type": "buttons",
-                        "buttons": ["메뉴1", "메뉴2", "메뉴3","만든사람"]
+                        "buttons": ["오늘급식", "내일급식", "어제급식","만든사람"]
                     }
                 }';
             break;
  
-        case "메뉴2":
+        case "내일급식":
             echo '
                 {
                     "message":
                     {
-                        "text": "메뉴2를 선택하셨습니다."
+                        "text": "[내일 급식]"
                     },
                     "keyboard":
                     {
                         "type": "buttons",
-                        "buttons": ["메뉴1", "메뉴2", "메뉴3","만든사람"]
+                        "buttons": ["오늘급식", "내일급식", "어제급식","만든사람"]
                     }
                 }';
             break;
  
-        case "메뉴3":
+        case "어제급식":
             echo '
                 {
                     "message":
                     {
-                        "text": "메뉴3을 선택하셨습니다."
+                        "text": "[어제 급식]"
                     },
                     "keyboard":
                     {
                         "type": "buttons",
-                        "buttons": ["메뉴1", "메뉴2", "메뉴3","만든사람"]
+                        "buttons": ["오늘급식", "내일급식", "어제급식","만든사람"]
                     }
                 }';
             break;
@@ -54,12 +54,12 @@
                 {
                     "message":
                     {
-                        "text": "다음의 암호를 풀어보세요 : 66eM65Og7IKs656M7J2AIDIwMTjrhYTrj4QgMy0367CYIOq5gOyduOq3nOyeheuLiOuLpC4= "
+                        "text": "개발자는 현재 3학년 재학중입니다."
                     },
                     "keyboard":
                     {
                         "type": "buttons",
-                        "buttons": ["메뉴1", "메뉴2", "메뉴3","만든사람"]
+                        "buttons": ["오늘급식", "내일급식", "어제급식","만든사람"]
                     }
                 }';
             break;
@@ -74,7 +74,7 @@
                     "keyboard":
                     {
                         "type": "buttons",
-                        "buttons": ["메뉴1", "메뉴2", "메뉴3","만든사람"]
+                        "buttons": ["오늘급식", "내일급식", "어제급식","만든사람"]
                     }
                 }';
             break;
